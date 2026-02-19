@@ -1,6 +1,11 @@
 # Next.js Starter Template
 
+[![GitHub](https://img.shields.io/github/license/chenz24/nextjs-starter)](https://github.com/chenz24/nextjs-starter/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/chenz24/nextjs-starter)](https://github.com/chenz24/nextjs-starter)
+
 A modern, production-ready Next.js starter template with a carefully curated tech stack.
+
+**GitHub**: [https://github.com/chenz24/nextjs-starter](https://github.com/chenz24/nextjs-starter)
 
 ## Tech Stack
 

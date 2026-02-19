@@ -1,3 +1,4 @@
+import { Github } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Separator } from "@/components/ui/separator";
 import { Link } from "@/i18n/navigation";
@@ -39,6 +40,15 @@ export function Header() {
 				<div className="flex items-center gap-1">
 					<LocaleSwitcher />
 					<ThemeToggle />
+					<a
+						href="https://github.com/chenz24/nextjs-starter"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-flex h-9 w-9 items-center justify-center rounded-md text-muted-foreground transition-colors hover:text-foreground"
+						aria-label="GitHub"
+					>
+						<Github className="h-4 w-4" />
+					</a>
 				</div>
 			</div>
 		</header>
