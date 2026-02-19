@@ -1,0 +1,99 @@
+{
+	"metadata": {
+		"title": "Next.js Starter",
+		"description": "A modern Next.js starter template with Tailwind CSS, shadcn/ui, ReUI, and i18n support"
+	},
+	"header": {
+		"home": "Home",
+		"about": "About",
+		"theme": "Toggle theme",
+		"language": "Language",
+		"components": "Components"
+	},
+	"home": {
+		"title": "Next.js Starter Template",
+		"subtitle": "A modern, production-ready starter with everything you need to build amazing web applications.",
+		"getStarted": "Get Started",
+		"learnMore": "Learn More",
+		"features": {
+			"title": "Features",
+			"nextjs": {
+				"title": "Next.js 16",
+				"description": "The latest version with App Router, React Server Components, and Turbopack."
+			},
+			"tailwind": {
+				"title": "Tailwind CSS 4",
+				"description": "CSS-first configuration with modern design tokens and dark mode support."
+			},
+			"shadcn": {
+				"title": "shadcn/ui + ReUI",
+				"description": "Beautiful, accessible components with enterprise-grade patterns."
+			},
+			"i18n": {
+				"title": "Internationalization",
+				"description": "Built-in multi-language support with next-intl for global reach."
+			},
+			"biome": {
+				"title": "Biome",
+				"description": "Fast, unified linter and formatter replacing ESLint and Prettier."
+			},
+			"darkMode": {
+				"title": "Dark Mode",
+				"description": "Seamless light and dark theme switching with next-themes."
+			}
+		}
+	},
+	"about": {
+		"title": "About This Project",
+		"description": "This is a modern Next.js starter template designed to help you quickly bootstrap new projects with best practices and a carefully curated tech stack.",
+		"techStack": "Tech Stack",
+		"items": {
+			"framework": "Framework: Next.js 16 with App Router",
+			"styling": "Styling: Tailwind CSS 4",
+			"components": "Components: shadcn/ui + ReUI",
+			"i18n": "Internationalization: next-intl",
+			"linting": "Linting & Formatting: Biome",
+			"theme": "Theme: next-themes with dark mode"
+		},
+		"backHome": "Back to Home"
+	},
+	"notFound": {
+		"title": "404",
+		"description": "The page you're looking for doesn't exist or has been moved.",
+		"backHome": "Back to Home"
+	},
+	"error": {
+		"title": "Something went wrong",
+		"description": "An unexpected error occurred. Please try again.",
+		"retry": "Try Again"
+	},
+	"loading": {
+		"text": "Loading..."
+	},
+	"components": {
+		"title": "Component Showcase",
+		"description": "A preview of the UI components available in this starter template.",
+		"sections": {
+			"buttons": "Buttons",
+			"cards": "Cards",
+			"alerts": "Alerts",
+			"badges": "Badges",
+			"forms": "Forms"
+		},
+		"sampleCard": {
+			"title": "Sample Card",
+			"description": "This is an example card component from shadcn/ui."
+		},
+		"alertMessages": {
+			"info": "This is an informational alert from ReUI.",
+			"success": "Operation completed successfully!",
+			"warning": "Please review before proceeding.",
+			"destructive": "This action cannot be undone."
+		}
+	},
+	"footer": {
+		"builtWith": "Built with",
+		"and": "and",
+		"allRightsReserved": "All rights reserved."
+	}
+}
