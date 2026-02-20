@@ -54,7 +54,11 @@ function HomeContent() {
 				<p className="max-w-2xl text-lg text-muted-foreground">{t("subtitle")}</p>
 				<div className="flex gap-4">
 					<Button asChild size="lg">
-						<a href="https://github.com" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://github.com/chenz24/nextjs-starter"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							{t("getStarted")}
 						</a>
 					</Button>
