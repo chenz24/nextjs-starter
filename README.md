@@ -2,6 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/chenz24/nextjs-starter)](https://github.com/chenz24/nextjs-starter/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/chenz24/nextjs-starter)](https://github.com/chenz24/nextjs-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fchenz24%2Fnextjs-starter&env=NEXT_PUBLIC_BASE_URL&envDescription=Base%20URL%20for%20SEO%20(sitemap%2C%20OG%20tags)&envLink=https%3A%2F%2Fgithub.com%2Fchenz24%2Fnextjs-starter%23environment-variables)
 
 A modern, production-ready Next.js starter template with a carefully curated tech stack.
 
@@ -19,7 +20,7 @@ A modern, production-ready Next.js starter template with a carefully curated tec
 - **Analytics**: [Vercel Analytics](https://vercel.com/analytics) — Built-in analytics integration
 - **Git Hooks**: [Husky](https://typicode.github.io/husky) + [lint-staged](https://github.com/lint-staged/lint-staged) — Pre-commit quality checks
 - **Language**: TypeScript
-- **Deployment**: Docker support with standalone output
+- **Deployment**: [Vercel](https://vercel.com) (recommended) / Docker with standalone output
 
 ## Prerequisites
 
@@ -132,8 +133,21 @@ Copy `.env.example` to `.env.local` and configure:
 | `NEXT_PUBLIC_BASE_URL` | Base URL for SEO (sitemap, OG tags) | `https://example.com` |
 | `NODE_ENV` | Node environment | `development` |
 | `SKIP_ENV_VALIDATION` | Skip env validation (for Docker builds) | — |
+| `STANDALONE` | Enable standalone output (for Docker builds) | — |
 
-## Docker
+## Deployment
+
+### Vercel (Recommended)
+
+The easiest way to deploy this starter is with [Vercel](https://vercel.com):
+
+1. Click the **Deploy with Vercel** button above, or import the repository at [vercel.com/new](https://vercel.com/new)
+2. Set the `NEXT_PUBLIC_BASE_URL` environment variable to your Vercel domain
+3. Deploy — that's it!
+
+> Vercel automatically detects Next.js and handles the build configuration. No additional setup required.
+
+### Docker
 
 ```bash
 # Build image
