@@ -30,6 +30,12 @@
 	"lint-staged": {
 		"*.{ts,tsx,js,jsx,json,css,md}": "biome check --write --no-errors-on-unmatched"
 	},
+	"pnpm": {
+		"ignoredBuiltDependencies": [
+			"sharp",
+			"unrs-resolver"
+		]
+	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.2",
 		"@tailwindcss/postcss": "^4",
